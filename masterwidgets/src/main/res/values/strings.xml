@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Widgets</string>
+    <string name="multiple_layouts">Multiple Layouts</string>
+    <string name="framelayout">FrameLayout</string>
+    <string name="relativelayout">RelativeLayout</string>
+    <string name="linearlayout">LinearLayout</string>
+    <string name="sample_1">Sample text \n- 1 -</string>
+    <string name="sample_2">Sample text \n- 2 -</string>
+    <string name="sample_3">Sample text \n- 3 -</string>
+    <string name="sample_text_long">Lorem ipsum dolor sit amet, oratio dolorem instructior vel an,
+        mea eu quas fabellas definitiones, et mei mazim meliore. No aeterno praesent democritum pro,
+        et vis solet dicant. Dissentias intellegebat quo ea, id nam quod latine, ut mutat ullum
+        comprehensam pro. Feugiat dolorum ad nec. Soluta iuvaret officiis an duo, vis no summo paulo
+        impedit. Constituto cotidieque eos ne. Ferri regione fuisset no qui, sit ut scripta appareat
+        partiendo, eu dico exerci tibique vel.
+    </string>
+    <string name="sample_text_medium">Lorem ipsum dolor sit amet, oratio dolorem instructior vel an,
+        mea eu quas fabellas definitiones, et mei mazim meliore.
+    </string>
+    <string name="sample_text_short">Lorem ipsum dolor sit amet, oratio dolorem instructior vel an
+    </string>
+    <string name="sample_input_hint">Tap here to insert text</string>
+    <string name="switch_sample_text">Turn me off!</string>
+    <string name="turn_on">ON</string>
+    <string name="turn_off">OFF</string>
+    <string name="programmatic_views">Programmatic Views</string>
+    <string name="create">Create</string>
+    <string name="default_view_label">Tried to trick me, huh? o.0</string>
+    <string name="more">More</string>
+    <string name="romanian">Romana \u2022</string>
+    <string name="spanish">Espanol (Espana) \u2022</string>
+    <string name="email_or_phone">Email or Phone</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="create_new_fb_account">Create new facebook account</string>
+    <string name="log_in">Log in</string>
+    <string name="photo_booth">Photo Booth</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="cardview">CardView</string>
+    <string name="multiple_widgets">Multiple Widgets</string>
+    <string name="owl_description">An owl</string>
+
+    <!-- GridLayout screen -->
+    <string name="block">Block</string>
+    <string name="number">No</string>
+    <string name="stairs">Stairs</string>
+    <string name="floor">Floor</string>
+    <string name="apartment">Apartment</string>
+    <string name="address">Address</string>
+    <string name="street">Street</string>
+</resources>

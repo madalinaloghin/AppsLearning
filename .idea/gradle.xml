@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/contactlistrv" />
+            <option value="$PROJECT_DIR$/learnactivities" />
+            <option value="$PROJECT_DIR$/masternavigation" />
+            <option value="$PROJECT_DIR$/masterwidgets" />
+            <option value="$PROJECT_DIR$/navigation" />
+            <option value="$PROJECT_DIR$/recipes" />
+            <option value="$PROJECT_DIR$/scrollandrecycler" />
+            <option value="$PROJECT_DIR$/startactivityforresult" />
+            <option value="$PROJECT_DIR$/thirdpartyhelp" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

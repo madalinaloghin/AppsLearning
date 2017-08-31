@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/SeaGreen"
+        tools:context="com.madalinaloghin.navigation.Fragments.FragmentC">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Navigation bar, pag principala, sa aiba optiunea de search
+De vazut aici ca pot fi cautate in toate categoriile (filme, seriale, people, collections, cpy, keywords) dar si separat pe categorie. Si sa aiba si posibilitatea de a cauta direct doar pentru filme, sau altceva. (sa aplica filtre?)  (optiune de Discover movies/ tv shows - cu ordonare dupa diverse campuri predefinte(popularite, numar de voturi, revenue, release date, media voturilor  -toate asc sau desc)
+
+Sau pagina separata cu search:
+Selecteaza cuvinte cheie/ si poate sa vada filmele care au keywordul - sau grupate de genuri
+
+
+
+Pagina principala
+Pagina impartita in 2 cu upcoming/ popular - pe : filme, seriale si (unele sub altele)
+Sectiune cu recomandari, grupate pe filme, seriale (cu fragmente?)
+
+Meniu lateral
+Poza/ ceva + detalii ?
+Favorites
+List
+My reviews -rated movies/tv series/ tvepisodes?
+Watchlist
+
+
+Partea de rated movies/ tvshows/episodes?
+
+Favorites
+ recycle view cu lista cu filmele + seriale marcate ca favorites
+List
+Listele create de user
+Crearea unei noi liste (floating button cu +), sau stergerea unei liste deja existente
+Cu adaugat (asta sa apara un buton pe un film/ serial) /sters filme dintr-o lista
+Watchlist cu filme si seriale (si la fel sa fie buton la serial/film cu + pentru watchlist) - o singura lista aici, si nu mai multe
+
+Vizualizare filme/ seriale dupa: gen, nota, an
+Detalii filme
+Detalii Seriale (sezoane, episoade,
+Reviewuri pe filme
+Filme cu detalii multe: credits, keywords, recommendations, similar movies, reviews
+//Biographies: people -search people
+Cautat filme/ seriale /actori
+
+
+Post
+Mark as Favorite
+Add to watchlist
+Creare liste, adaugat filme, sters filme, golit lista si sters lista
+Rate movie si delete ranking
+Rate tv show si detele ranking
+Rate tv episode si delete ranking
+
+
+
+//testat
+Append To Response
+De cautat filmul dupa cuvant, cand da click pe el luat id-ul si vazut toate detaliile cu un nou request (in special pentru aia de genuri)
+-- merge, si merg luate si mai multe informatii odata :D
+
+
+Varianta v4
+
+Authentification with new token
+Accesare directa a listelor cu input de la utilizator
+
+
+
+Vizualizare filme/ seriale dupa: gen, nota, an
+Detalii filme
+Detalii Seriale (sezoane, episoade,
+Reviewuri pe filme
+Filme cu detalii multe: credits, keywords, recommendations, similar movies, reviews
+//Biographies: people -search people
+Cautat filme/ seriale /actori
+
+
+Post
+Mark as Favorite
+Add to watchlist
+Creare liste, adaugat filme, sters filme, golit lista si sters lista
+Rate movie si delete ranking
+Rate tv show si detele ranking
+Rate tv episode si delete ranking
+
+
+
+//testat
+Append To Response
+De cautat filmul dupa cuvant, cand da click pe el luat id-ul si vazut toate detaliile cu un nou request (in special pentru aia de genuri)
+-- merge, si merg luate si mai multe informatii odata :D
+
+
+Varianta v4
+
+Authentification with new token
+Accesare directa a listelor cu input de la utilizator
+
+
+ " />
+
+
+    </FrameLayout>
+
+
+</ScrollView>
+

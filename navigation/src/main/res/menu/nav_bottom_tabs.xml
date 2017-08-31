@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_activ_simple"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Simple activ"/>
+
+    <item
+        android:id="@+id/navigation_activ_tabs"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Tabs activ" />
+
+    <item
+        android:id="@+id/navigation_fragment_a"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Other A" />
+
+    <item
+        android:id="@+id/navigation_fragment_b"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Other B"/>
+
+    <item
+        android:id="@+id/navigation_fragment_c"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Other C"/>
+
+
+
+</menu>

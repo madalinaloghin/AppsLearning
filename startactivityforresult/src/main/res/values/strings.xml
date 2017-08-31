@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">StarActivityForResult</string>
+    <string name="button_activity_b">Press for Activity B</string>
+    <string name="button_send_message">Send message</string>
+    <string name="null_message">No message from other activity :(</string>
+</resources>

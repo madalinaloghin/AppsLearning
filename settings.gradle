@@ -1,0 +1,1 @@
+include ':app', ':contactlistrv', ':recipes', ':scrollandrecycler', ':learnactivities', ':masterwidgets', ':masternavigation', ':navigation', ':startactivityforresult', ':thirdpartyhelp'

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="tabs_activity">Open tabs</string>
+    <string name="tabs_activity_acnother">Open tabs another</string>
+    <string name="navigation_drawer_activity">Open navigation drawer </string>
+    <string name="bottom_navigation_drawer_activity">Open bottom navigation</string>
+    <string name="bottom_nav_with_tabs_activity">Open bottom nav with tabs </string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_basic_tabs">BasicTabsActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

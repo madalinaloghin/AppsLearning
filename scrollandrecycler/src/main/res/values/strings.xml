@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ScrollsiRecycler</string>
+    <string name="recycler_view">Recycler View</string>
+    <string name="scroll_view">Scroll View</string>
+
+    <string name="long_text_ahead"> The folklore surrounding black cats varies from culture to culture.The Scots believe that a strange black cats arrival to the home signifies prosperity.
+        In Celtic mythology, a fairy known as the Cat Sìth takes the form of a black cat. Black cats are also considered good luck in the rest of Britain and Japan.[4] Furthermore, it is
+        believed that a lady who owns a black cat will have many suitors.[5] In Western history, black cats have often been looked upon as a symbol of evil omens, specifically being
+        suspected of being the familiars of witches, or actually shape-shifting witches themselves. Most of Europe considers the black cat a symbol of bad luck, particularly if one walks
+        across the path in front of a person, which is believed to be an omen of misfortune and death. In Germany, some believe that black cats crossing a persons path from right to left,
+        is a bad omen. But from left to right, the cat is granting favorable times.[6] In the United Kingdom it is commonly considered that a black cat crossing a persons path is a good omen.
+        The black cat in folklore has been able to change into human shape to act as a spy or courier for witches or demons. When the Pilgrims arrived at Plymouth Rock, they brought with them
+        a devout faith in the Bible. They also brought a deepening suspicion of anything deemed of Satan and were a deeply suspicious group. They viewed the black cat as a companion, or a
+        familiar to witches. Anyone caught with a black cat would be severely punished or even killed. They viewed the black cat as part demon and part sorcery. These superstitions led people
+        to kill black cats. There is no evidence from England of regular large-scale massacres of "satanic" cats, or of burning them in midsummer bonfires, as sometimes occurred elsewhere in
+        Europe. </string>
+
+    <string name= "cats_introduction"> This is an awesome black cat! </string>
+
+</resources>

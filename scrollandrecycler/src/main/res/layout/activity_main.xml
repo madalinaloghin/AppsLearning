@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.madalinaloghin.scrollandrecycler.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/recycler_view" />
+
+    <TextView
+        android:id="@+id/tv_scrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/scroll_view" />
+
+    <TextView
+        android:id="@+id/tv_scroll_text_mains"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical"
+        android:text="@string/long_text_ahead" />
+
+
+</LinearLayout>

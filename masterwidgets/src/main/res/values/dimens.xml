@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="material_keyline_1">16dp</dimen>
+    <dimen name="material_keyline_2">8dp</dimen>
+
+    <dimen name="box_big">300dp</dimen>
+    <dimen name="box_medium">200dp</dimen>
+    <dimen name="box_small">100dp</dimen>
+
+    <dimen name="cardview_sample_height">100dp</dimen>
+
+    <dimen name="space_between_multiple_fields">10dp</dimen>
+
+    <dimen name="fb_left_right_margin">20dp</dimen>
+
+    <dimen name="collage_footer_height">60dp</dimen>
+    <dimen name="collage_header_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/material_keyline_1"
+        app:columnCount="4"
+        app:rowCount="4"
+        tools:ignore="RtlHardcoded">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="@string/address"
+            app:layout_columnSpan="4"/>
+
+    <EditText
+            android:layout_marginRight="8dp"
+            android:hint="@string/street"
+            android:imeOptions="actionNext"
+            android:inputType="textPostalAddress"
+            app:layout_columnWeight="3"
+            app:layout_columnSpan="3"/>
+
+    <EditText
+            android:layout_marginLeft="8dp"
+            android:hint="@string/number"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            app:layout_columnWeight="1"
+            app:layout_columnSpan="1"/>
+
+    <EditText
+            android:layout_marginRight="8dp"
+            android:hint="@string/block"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            app:layout_columnWeight="2"
+            app:layout_columnSpan="2"/>
+
+    <EditText
+            android:layout_marginLeft="8dp"
+            android:hint="@string/stairs"
+            android:layout_width="0dp"
+            android:imeOptions="actionNext"
+            android:inputType="textCapCharacters"
+            app:layout_columnWeight="2"
+            app:layout_columnSpan="2"/>
+
+    <EditText
+            android:layout_marginRight="8dp"
+            android:hint="@string/floor"
+            android:imeOptions="actionNext"
+            android:inputType="number|textPostalAddress"
+            app:layout_columnWeight="2"
+            app:layout_columnSpan="2"/>
+
+    <EditText
+            android:layout_marginLeft="8dp"
+            android:ellipsize="end"
+            android:hint="@string/apartment"
+            android:imeOptions="actionDone"
+            android:inputType="textShortMessage"
+            app:layout_columnWeight="2"
+            app:layout_columnSpan="2"/>
+
+</android.support.v7.widget.GridLayout>

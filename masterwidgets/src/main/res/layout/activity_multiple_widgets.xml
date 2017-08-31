@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_transparency_60"
+        android:padding="@dimen/material_keyline_1">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sample_owl"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/owl_description"/>
+
+        <CheckBox android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textStyle="italic"
+                  android:textColor="@android:color/holo_orange_dark"
+                  android:fontFamily="sans-serif-smallcaps"
+                  android:text="@string/sample_text_medium"
+                  android:ellipsize="end"
+                  android:maxLines="1"
+                  android:textSize="16sp"/>
+
+        <RadioGroup android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_between_multiple_fields">
+
+            <RadioButton android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:textStyle="italic"
+                         android:textColor="@android:color/holo_red_dark"
+                         android:fontFamily="sans-serif-smallcaps"
+                         android:text="@string/sample_text_medium"
+                         android:ellipsize="end"
+                         android:maxLines="1"
+                         android:textSize="16sp"/>
+
+            <RadioButton android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:textStyle="italic"
+                         android:textColor="@android:color/holo_green_light"
+                         android:fontFamily="sans-serif-smallcaps"
+                         android:text="@string/sample_text_medium"
+                         android:ellipsize="end"
+                         android:maxLines="1"
+                         android:textSize="16sp"/>
+
+        </RadioGroup>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_text_medium"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_marginTop="@dimen/space_between_multiple_fields"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="italic"/>
+
+        <Switch android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/switch_sample_text"
+                android:textOn="@string/turn_on"
+                android:textColor="@android:color/black"
+                android:checked="true"
+                android:switchPadding="10dp"
+                android:layout_marginTop="@dimen/space_between_multiple_fields"
+                android:textOff="@string/turn_off"/>
+
+        <ProgressBar style="?android:progressBarStyle"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="@dimen/space_between_multiple_fields"
+                     android:indeterminate="true"/>
+
+        <ProgressBar
+                style="?android:progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:layout_marginTop="@dimen/space_between_multiple_fields"
+                android:progress="40"/>
+
+        <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_between_multiple_fields"
+                android:progress="30"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_between_multiple_fields"
+                android:inputType="number"
+                android:imeOptions="actionDone"
+                android:textColorHint="@color/grey_1"
+                android:hint="@string/sample_input_hint"/>
+
+        <RatingBar android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:numStars="5"
+                   android:rating="1.5"
+                   android:stepSize="0.5"
+                   android:layout_marginTop="@dimen/space_between_multiple_fields"/>
+
+        <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@android:drawable/ic_dialog_email"/>
+
+    </LinearLayout>
+</ScrollView>
